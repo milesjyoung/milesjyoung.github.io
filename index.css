@@ -107,7 +107,7 @@ a:active {
   background-image: url("./assets/google_drive_background.jpeg");
   background-size: cover;
   color: #fff;
-  padding: 3.5rem;
+  padding: 2.5rem;
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
