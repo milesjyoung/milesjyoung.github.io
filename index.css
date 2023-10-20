@@ -33,7 +33,6 @@ nav .logo {
   justify-content: center;
   align-items: center;
   font-size: 3em;
-  border: 3px solid black;
   color: #fff;
   border-radius: 3px;
   font-weight: 900;
@@ -82,21 +81,24 @@ a:active {
 }
 
 .card-container {
-  width: 70%;
+  width: 60%;
   margin: 4rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 1rem;
   row-gap: 1rem;
+  justify-items: center;
 }
 
 .card {
   border: 1px solid #ccc;
   border-radius: 5px;
   overflow: hidden;
-  width: 300px; /* Adjust the width as needed */
+  width: 23em; /* Adjust the width as needed */
+  height: calc(1.05 * 20rem);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e4e6eb;
 }
 
 /* Define styles for the header */
@@ -105,10 +107,10 @@ a:active {
   background-image: url("./assets/google_drive_background.jpeg");
   background-size: cover;
   color: #fff;
-  padding: 20px;
+  padding: 3.5rem;
   text-align: center;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
 /* Create a slanted gradient overlay */
@@ -138,12 +140,13 @@ clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .card ul {
-  font-size: 14px;
-  margin: 10px 0;
+  font-size: 0.85rem;
+  margin: 1rem 20%;
   list-style-type: none;
 }
 
 .card a {
   text-decoration: none;
+  margin: 30%;
   color: #007bff;
 }
