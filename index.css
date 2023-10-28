@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Raleway&family=Titillium+Web&display=swap');
 
 :root {
-  font-family: "Gloock", serif;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
 }
 
 body {
@@ -87,6 +91,7 @@ a:active {
 .card-section h2 {
   text-align: center;
   margin-bottom: 40px;
+  font-weight: 800;
 }
 
 .card-container {
@@ -207,6 +212,19 @@ a:active {
   );
 }
 
+.card-header.header-scrape {
+  background-image: url("./assets/selenium_logo.png");
+  background-size: cover;
+}
+
+.gradient.gradient-scrape {
+  background: linear-gradient(
+    to bottom right,
+    rgba(116, 214, 128, 0.6),
+    rgba(55, 139, 41, 0.3)
+  );
+}
+
 .card h2 {
   margin: 0;
   font-size: 24px;
@@ -253,6 +271,14 @@ a:active {
 }
 
 .card__face--back.card-back-interval {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(116, 214, 128, 0.8),
+    rgba(55, 139, 41, 0.6)
+  );
+}
+
+.card__face--back.card-back-scrape {
   background-image: linear-gradient(
     to bottom right,
     rgba(116, 214, 128, 0.8),
