@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Miles Young - Home</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <link rel="icon" href="./assets/M.png">
   </head>
   <body>
     <nav>
@@ -27,66 +27,129 @@
       <h2>Project Portfolio</h2>
       <div class="card-container">
         <div class="card">
-          <div class="card-header">
-            <div class="gradient"></div>
-            <h2>Zoho & Google Drive Integration</h2>
-          </div>
-          <div class="card-content">
-            <ul>
-              <li>Nodejs</li>
-              <li>Webhooks</li>
-              <li>Google Drive API</li>
-              <li>GCP Serverless Functions</li>
-            </ul>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header">
-            <div class="gradient"></div>
-            <h2>Zoho & Google Drive Integration</h2>
-          </div>
-          <div class="card-content">
-            <ul>
-              <li>Nodejs</li>
-              <li>Webhooks</li>
-              <li>Google Drive API</li>
-              <li>GCP Serverless Functions</li>
-            </ul>
-            <a href="#">Read More</a>
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header header-google">
+                <div class="gradient gradient-google"></div>
+                <h2>Zoho & Google Drive Integration</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Nodejs</li>
+                  <li>Webhooks</li>
+                  <li>Google Drive API</li>
+                  <li>GCP Serverless Functions</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back card-back-google">
+              <div class="back--content">
+                <p>An automated system to create copies of a template folder in Google Drive and update a record in the Zoho CRM</p>
+                <div class="back--btn">Github</div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-header">
-            <div class="gradient"></div>
-            <h2>Zoho & Google Drive Integration</h2>
-          </div>
-          <div class="card-content">
-            <ul>
-              <li>Nodejs</li>
-              <li>Webhooks</li>
-              <li>Google Drive API</li>
-              <li>GCP Serverless Functions</li>
-            </ul>
-            <a href="#">Read More</a>
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header header-reddit">
+                <div class="gradient gradient-reddit"></div>
+                <h2 >Reddit Client</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Javascript</li>
+                  <li>React - Redux</li>
+                  <li>Reddit JSON API</li>
+                  <li>Create-React-App</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back card-back-reddit">
+              <div class="back--content">
+                <p>A demo project showing a very simplified version of reddit simply rendering raw post data and comments</p>
+                <div class="back--btn">Demo</div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card">
-          <div class="card-header">
-            <div class="gradient"></div>
-            <h2>Zoho & Google Drive Integration</h2>
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header header-interval">
+                <div class="gradient gradient-interval"></div>
+                <h2>PG&E Interval Data Calculator (Solar)</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Javascript</li>
+                  <li>D3.js</li>
+                  <li>CSV - XML</li>
+                  <li>OOP</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back card-back-interval">
+              <div class="back--content">
+                <p>An application that takes interval data input from PG&E (electric usage) and creates a table and percentage chart for TOU analysis based on user input rate schedule. This project is vanilla JS</p>
+                <div class="back--btn">Github</div>
+              </div>
+            </div>
           </div>
-          <div class="card-content">
-            <ul>
-              <li>Nodejs</li>
-              <li>Webhooks</li>
-              <li>Google Drive API</li>
-              <li>GCP Serverless Functions</li>
-            </ul>
-            <a href="#">Read More</a>
+        </div>
+        <div class="card">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header">
+                <div class="gradient"></div>
+                <h2>Zoho & Google Drive Integration</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Nodejs</li>
+                  <li>Webhooks</li>
+                  <li>Google Drive API</li>
+                  <li>GCP Serverless Functions</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back">
+              <div class="back--content">
+                <p>An automated system to create copies of a template folder in Google Drive and update a record in the Zoho CRM</p>
+                <div class="back--btn">Github</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+      const linkObj = {
+        1: "https://github.com/milesjyoung/Google-Drive-Zoho-Intergration",
+        2: "https://milesjyoung.github.io/redditClient/",
+        3: "https://github.com/milesjyoung/interval_data",
+        4: "https://github.com/milesjyoung/Google-Drive-Zoho-Intergration",
+      }
+
+      const google = document.querySelector(".header-google")
+      console.log(google.computedStyleMap)
+      
+      const cards = document.querySelectorAll('.card__inner')
+      console.log(cards)
+      cards.forEach((card, i) => {
+        const link = linkObj[i+1]
+        card.addEventListener('click', function() {
+          card.classList.toggle('is-flipped')
+        })
+        const projectLinkBtn = card.querySelector(".back--btn")
+        projectLinkBtn.addEventListener('click', (e) => {
+          e.stopPropagation()
+          window.open(link, "_blank")
+        })
+      })
+
+    </script>
   </body>
 </html>
