@@ -2,11 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
 
-:root {
+/* :root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Gloock", serif;
+} */
+
+:root {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
 }
 
 body {
@@ -28,19 +33,24 @@ nav {
 }
 
 nav .logo {
-  font-family: "Luckiest Guy";
   height: 80%;
-  width: 2.5%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3em;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 5em;
   font-weight: 900;
   margin: 0 1.5rem;
-  margin-top: .5rem;
+  /* margin-top: .5rem; */
+  background-color: #fff;
   cursor: pointer;
+}
+
+.logo-span {
+  padding: 4px;
+  font-size: 3rem;
+  color: #000;
 }
 
 nav ul {
@@ -134,8 +144,16 @@ a:active {
 }
 
 .details-entry {
-    height: 49.9%;
+    /* height: 49.9%; */
     background-color: #dadce0;
+}
+
+.skills {
+  height: 40%;
+}
+
+.school {
+  height: 59.8%;
 }
 
 .experience-entry {
