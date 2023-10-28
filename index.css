@@ -25,7 +25,8 @@ nav {
 }
 
 nav .logo {
-  height: 80%;
+  height: 45px;
+  width: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,8 +40,14 @@ nav .logo {
 }
 
 .logo-span {
+  box-sizing: border-box;
+  height: 100%;
   padding: 4px;
-  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 900;
   color: #000;
 }
 
@@ -81,6 +88,8 @@ a:active {
   position: absolute;
   top: 38%;
   left: 22%;
+  padding: .1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .card-section {
@@ -215,7 +224,9 @@ a:active {
 
 .card-header.header-scrape {
   background-image: url("./assets/selenium_logo.png");
-  background-size: cover;
+  background-size: 136px 136px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .gradient.gradient-scrape {
