@@ -89,16 +89,16 @@ a:active {
   top: 38%;
   left: 22%;
   border-radius: 4px;
-  padding: 0 0.5rem;
+  padding: 0 0.75rem;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .banner-container h1 {
-  margin-top: 0.75rem;
+  margin-top: 0.3rem;
 }
 
 .banner-container h2 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.3rem;
 }
 
 .card-section {
@@ -219,21 +219,23 @@ a:active {
 }
 
 .card-header.header-interval {
-  background-image: url("./assets/pge_bill_image.png");
-  background-size: cover;
+  background-image: url("./assets/electricity_symbol.png");
+  background-size: 136px 136px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .gradient.gradient-interval {
   background: linear-gradient(
-    to bottom right,
-    rgba(116, 214, 128, 0.6),
-    rgba(55, 139, 41, 0.3)
+    135deg,
+    rgba(224, 203, 83, 0.7),
+    rgba(252, 245, 46, 0.7)
   );
 }
 
 .card-header.header-scrape {
   background-image: url("./assets/selenium_logo.png");
-  background-size: 136px 136px;
+  background-size: 116px 136px;
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -241,8 +243,9 @@ a:active {
 .gradient.gradient-scrape {
   background: linear-gradient(
     to bottom right,
-    rgba(116, 214, 128, 0.6),
-    rgba(55, 139, 41, 0.3)
+    rgba(40, 247, 64, 0.6),
+    rgba(14, 90, 0, 0.6)
+
   );
 }
 
@@ -293,9 +296,10 @@ a:active {
 
 .card__face--back.card-back-interval {
   background-image: linear-gradient(
-    to bottom right,
-    rgba(116, 214, 128, 0.8),
-    rgba(55, 139, 41, 0.6)
+    135deg,
+    rgba(224, 203, 83, 0.7),
+    rgba(252, 245, 46, 0.7)
+
   );
 }
 
