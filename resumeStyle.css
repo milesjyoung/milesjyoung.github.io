@@ -258,3 +258,13 @@ a:active {
   cursor: pointer;
   display: none;
 }
+
+
+@media (max-width: 886px) {
+  nav {
+    width: 886px;
+  }
+  nav ul {
+    left: -820px;
+  }
+}
