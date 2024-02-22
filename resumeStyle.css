@@ -144,7 +144,7 @@ a:active {
 }
 
 .experience-area h2 {
-  margin: 15px 5%;
+  margin: 5px 5%;
   font-size: 2em;
 }
 
@@ -161,6 +161,10 @@ a:active {
   background-color: #dadce0;
 }
 
+.details-entry.skills h2 {
+  margin-bottom: 10px;
+}
+
 .skills {
   height: 40%;
 }
@@ -171,7 +175,7 @@ a:active {
 
 .experience-entry {
   overflow: hidden;
-  margin: 15px 5%;
+  margin: 10px 5%;
 }
 
 .main-span {
@@ -206,11 +210,12 @@ a:active {
 
 .experience-item-ul {
   list-style-type: disc;
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 .experience-item-ul li {
   font-size: 0.8em;
+  margin-top: 0.3rem;
   margin-left: 1.2em;
   margin-bottom: 8px;
 }
