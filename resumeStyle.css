@@ -195,10 +195,10 @@ section p {
   margin: 0 0 0.3em;
 }
 
-/* this is only for pdf printing purposes (page break)
+/* this is only for pdf printing purposes (page break) */
 .experience-entry-extra-space {
   margin-top: 1.8em;
-} */
+}
 
 .experience__description-list {
   list-style-type: disc;
