@@ -165,7 +165,7 @@ section {
 
 section ul {
   list-style-type: none;
-  margin: 0.3rem 0 0;
+  margin: 0 0 0;
   padding: 0;
 }
 
@@ -196,9 +196,9 @@ section p {
 }
 
 /* this is only for pdf printing purposes (page break) */
-.experience-entry-extra-space {
+/* .experience-entry-extra-space {
   margin-top: 1.8em;
-}
+} */
 
 .experience__description-list {
   list-style-type: disc;
