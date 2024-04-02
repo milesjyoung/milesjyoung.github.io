@@ -78,13 +78,17 @@ a:active {
 }
 
 .resume__header {
-    height: 10%;
+    /* height: 8%; */
     display: flex;
     flex-direction: column;
+    /* added these two below to make width smaller */
+    margin: 0 auto;
+    width: 90%;
 }
 
 .header__name-contact {
-    width: 95%;
+    /* width: 95%; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -92,13 +96,16 @@ a:active {
 
 h1 {
   font-size: 2.5em;
-  margin: 0.3rem 0 0;
+  /* margin: 0.3rem 0 0; */
+  margin: 0;
 }
 
 h2 {
-  font-size: 1.35em;
-  text-align: center;
-  margin: 0.5rem 0 0.3rem 0;
+  /* font-size: 1.35em; */
+  font-size: 1.35rem;
+  /* text-align: center; */
+  /* margin: 0.5rem 0 0.3rem 0; */
+  margin: 0;
 }
 
 .header__info {
@@ -113,27 +120,33 @@ h2 {
   white-space: nowrap;
 }
 
+.header__blurb h2 {
+  margin: 0;
+}
+
 .divider {
   padding: 0.06rem;
-  width: 97%;
+  width: 100%;
   /* background-color: var(--resume-blue-color); */
   background-color: rgb(186, 186, 186);
-  margin: 1em auto;
+  /* margin: 1em auto; */
+  margin: 0.4rem auto;
 }
 
-.divider.secondary-divider{
+.divider.secondary-divider {
   width: 100%;
-  margin: 0.3rem auto 0.5rem;
+  /* margin: 0.4rem auto; */
 }
 
-.body__goal-statement {
+/* this is new for shrinking width of body */
+.resume__body {
   width: 90%;
-  margin: 0 auto 1.9em;
+  margin: 0 auto;
 }
 
 .body__skills-section {
-  width: 90%;
-  margin: 0.15em auto 1.5em;
+  width: 100%;
+  margin: 1em auto 1em;
   font-size: 1rem;
 }
 
@@ -144,8 +157,10 @@ h2 {
 }
 
 .body__skills-section ul {
-  margin: 0.3rem 0;
+  /* margin: 0.3rem 0; */
+  margin: 0;
   padding: 0;
+  /* left: -30%; */
 }
 
 .body__skills-section ul li {
@@ -158,8 +173,8 @@ h2 {
 }
 
 section {
-  width: 90%;
-  margin: 0 auto 1.5em;
+  width: 100%;
+  margin: 0 auto 1em;
   font-size: 1rem;
 }
 
@@ -187,7 +202,7 @@ section .section-head h3 {
 }
 
 section p {
-  width: 90%;
+  width: 100%;
   margin: 0;
 }
 
@@ -198,6 +213,11 @@ section p {
 /* this is only for pdf printing purposes (page break) */
 /* .experience-entry-extra-space {
   margin-top: 1.8em;
+} */
+
+/* adds extra margin for printing pdf */
+/* .body__education-section {
+  margin-top: 2.5em;
 } */
 
 .experience__description-list {
