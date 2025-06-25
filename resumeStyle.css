@@ -70,7 +70,7 @@ a:active {
 /* start resume styles */
 
 .resume {
-    margin: 3em auto 10em;
+    margin: 0 auto 10em;
     /* height: 1056px; */
     height: 1556px;
     width: 816px;
@@ -112,7 +112,7 @@ h2 {
   font-size: 0.9rem;
   list-style-type: none;
   padding: 0;
-  margin: 0.35rem;
+  margin: 0;
 }
 
 .header__blurb {
@@ -130,7 +130,7 @@ h2 {
   /* background-color: var(--resume-blue-color); */
   background-color: rgb(186, 186, 186);
   /* margin: 1em auto; */
-  margin: 0.4rem auto;
+  margin: 0.35rem auto;
 }
 
 .divider.secondary-divider {
@@ -146,8 +146,8 @@ h2 {
 
 .body__skills-section {
   width: 100%;
-  margin: 1em auto 1em;
-  font-size: 1rem;
+  margin: 0.35em auto 0.35em;
+  font-size: 0.8rem;
 }
 
 .body__skills-section h3 {
@@ -174,7 +174,7 @@ h2 {
 
 section {
   width: 100%;
-  margin: 0 auto 1em;
+  margin: 0 auto 0.35em;
   font-size: 1rem;
 }
 
@@ -207,7 +207,7 @@ section p {
 }
 
 .section-ul-li {
-  margin: 0 0 0.3em;
+  margin: 0 0 0.1em;
 }
 
 /* this is only for pdf printing purposes (page break) */
