@@ -70,7 +70,7 @@ a:active {
 /* start resume styles */
 
 .resume {
-    margin: 3em auto 10em;
+    margin: 1em auto 10em;
     /* height: 1056px; */
     height: 1556px;
     width: 816px;
@@ -95,28 +95,28 @@ a:active {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.6em;
   /* margin: 0.3rem 0 0; */
   margin: 0;
 }
 
 h2 {
   /* font-size: 1.35em; */
-  font-size: 1.35rem;
+  font-size: 1.1rem;
   /* text-align: center; */
   /* margin: 0.5rem 0 0.3rem 0; */
   margin: 0;
 }
 
 .header__info {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   list-style-type: none;
   padding: 0;
-  margin: 0.35rem;
+  margin: 0;
 }
 
 .header__blurb {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
@@ -130,7 +130,7 @@ h2 {
   /* background-color: var(--resume-blue-color); */
   background-color: rgb(186, 186, 186);
   /* margin: 1em auto; */
-  margin: 0.4rem auto;
+  margin: 0.35rem auto;
 }
 
 .divider.secondary-divider {
@@ -146,8 +146,8 @@ h2 {
 
 .body__skills-section {
   width: 100%;
-  margin: 1em auto 1em;
-  font-size: 1rem;
+  margin: 0.35em auto 0.35em;
+  font-size: 0.8rem;
 }
 
 .body__skills-section h3 {
@@ -174,7 +174,7 @@ h2 {
 
 section {
   width: 100%;
-  margin: 0 auto 1em;
+  margin: 0 auto 0.35em;
   font-size: 1rem;
 }
 
@@ -193,21 +193,25 @@ section .section-head {
 
 section .section-head span {
   padding: 0.4rem 0;
+  font-size: 0.9rem;
 }
 
 section .section-head h3 {
   display: inline-block;
   margin: 0;
+  font-size: 1rem;
+  font-weight: 900;
   /* color: var(--resume-blue-color); */
 }
 
 section p {
   width: 100%;
   margin: 0;
+  font-size: 0.9rem;
 }
 
 .section-ul-li {
-  margin: 0 0 0.3em;
+  margin: 0 0 0.1em;
 }
 
 /* this is only for pdf printing purposes (page break) */
@@ -227,6 +231,7 @@ section p {
 .experience__description-list li {
   /* list-style-position: inside; */
   margin-left: 2.15%;
+  font-size: 0.9rem;
   
 }
 

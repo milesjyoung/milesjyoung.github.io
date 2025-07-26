@@ -132,6 +132,13 @@ a:active {
   perspective: 1000px;
 }
 
+.card:hover {
+  transform: translate(-2px, -5px);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* background-color: #e4e6eb; */
+  perspective: 1000px;
+}
+
 .card__inner {
   width: 100%;
   height: 100%;
@@ -207,14 +214,14 @@ a:active {
   );
 }
 
-.card-header.header-reddit {
-  background-image: url("./assets/reddit_logo_2.webp");
+.card-header.header-production {
+  background-image: url("./assets/reports_logo.png");
   background-size: 136px 136px;
   background-repeat: no-repeat;
   background-position: right;
 }
 
-.gradient.gradient-reddit {
+.gradient.gradient-production {
   background: linear-gradient(to bottom right, rgba(236, 159, 5, 0.9), rgba(255, 78, 0, 0.8));
 }
 
@@ -234,8 +241,8 @@ a:active {
 }
 
 .card-header.header-scrape {
-  background-image: url("./assets/selenium_logo.png");
-  background-size: 116px 136px;
+  background-image: url("./assets/langchain_logo2.png");
+  background-size: 156px 216px;
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -245,6 +252,38 @@ a:active {
     to bottom right,
     rgba(40, 247, 64, 0.6),
     rgba(14, 90, 0, 0.6)
+
+  );
+}
+
+.card-header.header-terraform {
+  background-image: url("./assets/terraform_logo.png");
+  background-size: 156px 216px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.gradient.gradient-terraform {
+  background: linear-gradient(
+    to bottom right,
+    rgba(91, 45, 255, 0.6),
+    rgba(170, 73, 255, 0.6)
+
+  );
+}
+
+.card-header.header-mind {
+  background-image: url("./assets/mind_logo.svg");
+  background-size: 156px 216px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.gradient.gradient-mind {
+  background: linear-gradient(
+    to bottom right,
+    rgba(43, 244, 255, 0.6),
+    rgba(24, 189, 254, 0.6)
 
   );
 }
@@ -290,7 +329,7 @@ a:active {
    115%);
 }
 
-.card__face--back.card-back-reddit {
+.card__face--back.card-back-production {
   background-image: linear-gradient(to bottom right, rgba(236, 159, 5, 0.9), rgba(255, 78, 0, 0.8));
 }
 
@@ -308,6 +347,22 @@ a:active {
     to bottom right,
     rgba(116, 214, 128, 0.8),
     rgba(55, 139, 41, 0.6)
+  );
+}
+
+.card__face--back.card-back-terraform {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(91, 45, 255, 0.6),
+    rgba(170, 73, 255, 0.6)
+  );
+}
+
+.card__face--back.card-back-mind {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(43, 244, 255, 0.6),
+    rgba(24, 189, 254, 0.6)
   );
 }
 
