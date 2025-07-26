@@ -70,7 +70,7 @@ a:active {
 /* start resume styles */
 
 .resume {
-    margin: 0 auto 10em;
+    margin: 1em auto 10em;
     /* height: 1056px; */
     height: 1556px;
     width: 816px;
@@ -95,28 +95,28 @@ a:active {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.6em;
   /* margin: 0.3rem 0 0; */
   margin: 0;
 }
 
 h2 {
   /* font-size: 1.35em; */
-  font-size: 1.35rem;
+  font-size: 1.1rem;
   /* text-align: center; */
   /* margin: 0.5rem 0 0.3rem 0; */
   margin: 0;
 }
 
 .header__info {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .header__blurb {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   white-space: nowrap;
 }
 
@@ -193,17 +193,21 @@ section .section-head {
 
 section .section-head span {
   padding: 0.4rem 0;
+  font-size: 0.9rem;
 }
 
 section .section-head h3 {
   display: inline-block;
   margin: 0;
+  font-size: 1rem;
+  font-weight: 900;
   /* color: var(--resume-blue-color); */
 }
 
 section p {
   width: 100%;
   margin: 0;
+  font-size: 0.9rem;
 }
 
 .section-ul-li {
@@ -227,6 +231,7 @@ section p {
 .experience__description-list li {
   /* list-style-position: inside; */
   margin-left: 2.15%;
+  font-size: 0.9rem;
   
 }
 

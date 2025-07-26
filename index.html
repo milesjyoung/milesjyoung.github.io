@@ -26,6 +26,8 @@
     <div class="card-section">
       <h2>Project Portfolio</h2>
       <div class="card-container">
+        
+        
         <div class="card">
           <div class="card__inner">
             <div class="card__face card__face--front">
@@ -50,30 +52,112 @@
             </div>
           </div>
         </div>
+        
+        
         <div class="card">
           <div class="card__inner">
             <div class="card__face card__face--front">
-              <div class="card-header header-reddit">
-                <div class="gradient gradient-reddit"></div>
-                <h2 >Reddit Client</h2>
+              <div class="card-header header-production">
+                <div class="gradient gradient-production"></div>
+                <h2 >Automated Production Reports</h2>
               </div>
               <div class="card-content">
                 <ul>
-                  <li>Javascript</li>
-                  <li>React - Redux</li>
-                  <li>Reddit JSON API</li>
-                  <li>Create-React-App</li>
+                  <li>GCP</li>
+                  <li>NodeJS</li>
+                  <li>APIs</li>
+                  <li>Puppeteer</li>
                 </ul>
               </div>
             </div>
-            <div class="card__face card__face--back card-back-reddit">
+            <div class="card__face card__face--back card-back-production">
               <div class="back--content">
-                <p>A demo project showing a simplified version of reddit; the project renders raw post data and comments from the reddit JSON API</p>
+                <p>A backend project to address monitoring of 1000s of solar systems. This identifies underproducing solar systems for a solar installers company and provides automated notifications to their support team to save the company time and their customers money.</p>
+                <div class="back--btn">Github</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="card">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header header-scrape">
+                <div class="gradient gradient-scrape"></div>
+                <h2>Web Scraping Permit Data</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Airflow</li>
+                  <li>Docker</li>
+                  <li>Langchain</li>
+                  <li>Playwright</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back card-back-scrape">
+              <div class="back--content">
+                <p>A web scraping app that gathers data from a county permit repository and subsequently formats and processses the data to create the required output providing market statistics</p>
+                <div class="back--btn">Github</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="card">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header header-terraform">
+                <div class="gradient gradient-terraform"></div>
+                <h2>Terraform CI/CD Configuration</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>Terraform</li>
+                  <li>Github Actions</li>
+                  <li>Docker</li>
+                  <li>GCP</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back card-back-terraform">
+              <div class="back--content">
+                <p>A simple demo example of a Terraform, CI/CD setup using Docker and GCP. It is a template to create a scheduled job that appends data to a postgres table. This is an excellent starter for real workflows.</p>
+                <div class="back--btn">Github</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="card">
+          <div class="card__inner">
+            <div class="card__face card__face--front">
+              <div class="card-header header-mind">
+                <div class="gradient gradient-mind"></div>
+                <h2>Bright Mind Tutoring Services</h2>
+              </div>
+              <div class="card-content">
+                <ul>
+                  <li>React</li>
+                  <li>Express</li>
+                  <li>Bootstrap</li>
+                  <li>Teamwork!</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__face card__face--back card-back-mind">
+              <div class="back--content">
+                <p>A full stack web application to provide students with tutoring opportunites and to register as tutors themselves. This was a final project for a web development course and the project was created with the help of classmates.</p>
                 <div class="back--btn">Demo</div>
               </div>
             </div>
           </div>
         </div>
+
+
         <div class="card">
           <div class="card__inner">
             <div class="card__face card__face--front">
@@ -98,39 +182,19 @@
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card__inner">
-            <div class="card__face card__face--front">
-              <div class="card-header header-scrape">
-                <div class="gradient gradient-scrape"></div>
-                <h2>Web Scraping Permit Data</h2>
-              </div>
-              <div class="card-content">
-                <ul>
-                  <li>Python</li>
-                  <li>Selenium</li>
-                  <li>Pandas</li>
-                  <li>Matplotlib</li>
-                </ul>
-              </div>
-            </div>
-            <div class="card__face card__face--back card-back-scrape">
-              <div class="back--content">
-                <p>A web scraping app that gathers data from a county permit repository and subsequently formats and processses the data to create the required output providing market statistics</p>
-                <div class="back--btn">Github</div>
-              </div>
-            </div>
-          </div>
-        </div>
+
+
       </div>
     </div>
 
     <script>
       const linkObj = {
         1: "https://github.com/milesjyoung/Google-Drive-Zoho-Intergration",
-        2: "https://milesjyoung.github.io/redditClient/",
-        3: "https://github.com/milesjyoung/interval_data",
-        4: "https://github.com/milesjyoung/web-scrape-permits",
+        2: "https://github.com/milesjyoung/production",
+        3: "https://github.com/milesjyoung/airflow_etl_demo",
+        4: "https://github.com/milesjyoung/test-terra",
+        5: "https://brightmind.live/",
+        6: "https://github.com/milesjyoung/interval_data",
       }
 
       const google = document.querySelector(".header-google")
